@@ -1,0 +1,161 @@
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+header{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 10;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	display: inline-block;
+}
+.logo{
+	float: left;
+    margin-top: 2px;
+    padding-top: 15px;
+    margin-left: 2%;
+    padding-left: 8%;
+    display: inline-block;
+}
+nav{
+	float: right;
+	display: inline-block;
+	padding-top: 3%;
+	padding-right: 20%;
+}
+nav > a{
+	padding-right: 20px;
+	font-size: 110%;
+	text-decoration: none;
+	color: black;
+}
+.empty{
+	height: 100px;
+}
+.backgroundimage{
+	display: inline-block;
+	width: 100%;
+	height: 400px;
+	background-image: url("backlayer.png") ;
+	background-position: center;
+	text-align: center;
+	margin: 0px;
+}
+.backgroundimage p{
+	position: relative;
+	top: 40%;
+	vertical-align: middle;
+	color: white;
+}
+.backgroundimage > p > a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.backgroundimage > p > a:hover{
+	font-size: 20px;
+}
+.aboutussection{
+	width: 100%;
+	/*display: inline-block;*/
+	/*position: relative;
+	/*top: 400px;*/	
+}
+.aboutussectiontext{
+	padding-top: 80px;
+	text-align: center;
+}
+.aboutussectiontext > h1{
+	color: #139139;
+}
+.aboutussectionimage{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.aboutussectionimage p{
+	font-weight: bold;
+}
+.card{
+	width:40%;
+    text-align: center;
+    float: left;
+    padding:5%;
+}
+.awardsection{
+	display: inline-block;
+	width: 100%;
+	height: 500px;
+
+}
+.awardsection > h1{
+	padding-top: 80px;
+	text-align: center;
+	color:#139139 ;
+}
+
+.awardsContainer{
+	display: flex;
+}
+.award{
+	width: 20%;
+	flex: 25%;
+	text-align: center;
+	padding-left: 1.5%;
+}
+.awardtext{
+	text-decoration: underline;
+}
+.getintouch
+{
+    width:100%;
+    height:850px;
+    display: block;
+}
+.title{
+	padding-top: 100px;
+	text-align: center;
+	color:#139139 ;
+}
+.git{
+    width:40%;
+    float:left;
+}
+.git1{
+    padding-right: 0px;
+    padding-left: 140px;
+    display: inline-block;
+}
+.git2{
+    padding-left: 150px;
+    padding-right: 0px;
+    display: inline-block;
+}
+footer{
+    width:100%;
+    height:100px;
+    background-color: #139139;
+    color:white;
+}
+.copyright{
+    float: left;
+    padding-left:250px;
+    padding-top: 30px;
+    color:white;
+}
+.social-icons{
+    float:right;
+    display:inline-block;
+    color:white;
+    padding-top: 20px;
+   padding-right: 400px;
+}
+.angleup{
+   float:right;
+   position: relative;
+   left: 500px;
+}
